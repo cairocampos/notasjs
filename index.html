@@ -1,21 +1,22 @@
 <html>
 	<head>
 		<title>Sistemas de notas</title>
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="extras/style.css">
 	</head>
 	<body>
 		<main>
 			<h2>Digite sua nota!</h2>
-			<input type="text" name="nota" placeholder="Tome nota..."> <br><br>
+			<input type="text" name="nota" id="nota" placeholder="Tome nota..."> <br><br>
 			
-			<select name="" id="">
-				<option value="0">Normal</option>
-				<option value="1">Importante</option>
-				<option value="2">Importantíssimo</option>
+			<select name="" id="prioridades">
+				<option value="1">Normal</option>
+				<option value="2">Importante</option>
+				<option value="3">Importantíssimo</option>
 			</select>
-			<button>Colar</button>
+			<button onclick="colar();">Colar</button>
 		</main>
 
-		<script type="text/jaavscript" src="extras/app.js"></script>
+		<script type="text/javascript" src="extras/app.js"></script>
 	</body>
 </html>

@@ -1,7 +1,38 @@
+* {
+	font-family: 'Arial';
+}
 main {
 	width: 500px;
-	height: auto;
+	min-height: 800px;
 	margin: auto;
 	border: 2px solid #EEE;
 	box-shadow: 0 0 2px 5px #EEE;
+	padding: 10px;
+}
+.nota-area {
+	height: auto;
+	width: 400px;
+	background-color: red;
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	color: #FFF;
+	display: flex;
+	justify-content: space-between;
+	transform: rotate(-5deg);
+	transition: .5s ease-in;
+
+}
+.nota-area:hover {
+	transform: rotate(0deg);
+}
+.nota-area a{
+	color: #000;
+	text-decoration:none;
+}
+
+.nota-area a:hover {
+	color: #FFF;
+	text-decoration: underline;
+	font-weight: bold;
 }
